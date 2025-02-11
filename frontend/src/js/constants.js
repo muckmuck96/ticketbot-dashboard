@@ -3,5 +3,5 @@ export const PLACEHOLDER_DOCS_URL = "https://docs.ticketsbot.net/setup/placehold
 
 export const OAUTH = {
     clientId: env.CLIENT_ID || "700742994386747404",
-    redirectUri: env.REDIRECT_URI || "http://localhost:5000/callback"
+    redirectUri: env.REDIRECT_URI || "https://dashboard.ticket.emotionv.de/callback"
 }
