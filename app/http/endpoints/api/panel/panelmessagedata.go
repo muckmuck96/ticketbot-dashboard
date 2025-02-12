@@ -70,7 +70,7 @@ func (p *panelMessageData) send(c *botcontext.BotContext) (uint64, error) {
 	}
 
 	if !p.IsPremium {
-		e.SetFooter("Powered by ticketsbot.net", "https://ticketsbot.net/assets/img/logo.png")
+		e.SetFooter("", "") // todo: title and image url deleted, maybe replace with some other?!
 	}
 
 	data := rest.CreateMessageData{
