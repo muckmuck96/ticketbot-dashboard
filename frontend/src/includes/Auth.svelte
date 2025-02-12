@@ -20,7 +20,7 @@
 
     export function redirectLogin() {
         let state = btoa(new URL(window.location.href).pathname);
-        window.location.href = `https://discordapp.com/oauth2/authorize?response_type=code&redirect_uri=${OAUTH.redirectUri}&scope=identify%20guilds&client_id=${OAUTH.clientId}&state=${state}`;
+        window.location.href = `https://discord.com/oauth2/authorize?client_id=1332749420026007652&response_type=code&redirect_uri=https%3A%2F%2Fdashboard.ticket.emotionv.de%2Fcallback&scope=identify+guilds&state=${state}`;
     }
 
     export function clearLocalStorage() {
